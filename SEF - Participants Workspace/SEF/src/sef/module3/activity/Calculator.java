@@ -33,8 +33,10 @@ public class Calculator {
 		int diff = 0;
 		if (x > y) {
 			// complete the code
+			diff = x-y;
 		} else {
 			// complete the code
+			diff = y-x;
 		}
 
 		return diff;
@@ -53,9 +55,9 @@ public class Calculator {
 	private static int divide(int x, int y) {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
-			// complete the code
+			divValue=0; // complete the code
 		} else {
-			// complete the code
+			divValue = x/y; // complete the code
 		}
 		return divValue;
 

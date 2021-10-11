@@ -5,8 +5,8 @@ public class WhileLoopSample {
 	public static void main(String[] args) {
 	
 		System.out.println("While Loop");
-		int counter = 0;
-		while(counter < 10){
+		int counter = 60;
+		while(counter < 50){
 			System.out.println("The value of counter is : " + counter);
 			counter++;		
 		}
