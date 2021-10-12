@@ -12,3 +12,4 @@ public class WorkerTypeB_Adapter implements AdapterInterface{
 		worker.doWork();
 	}
 }
+

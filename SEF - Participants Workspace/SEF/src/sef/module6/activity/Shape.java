@@ -1,8 +1,10 @@
 package sef.module6.activity;
 
-public class Shape {
+public abstract class Shape {
 
 	public String color;
+	public double area;
+	public double perimeter;
 	
 	public Shape() {
 	}
@@ -14,9 +16,11 @@ public class Shape {
 		color = c;
 	}
 	public String getColor() {
-		return color;
+          return color;
 	}
-	
+	abstract public double calculateArea();
+	abstract public double calculatePerimeter();
 	
 
 }
+

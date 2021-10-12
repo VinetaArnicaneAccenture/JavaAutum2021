@@ -6,3 +6,4 @@ public class WorkerImplB implements Worker{
 		System.out.println("Doing type-B work");
 	}
 }
+
