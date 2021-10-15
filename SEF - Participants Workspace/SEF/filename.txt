@@ -1,0 +1,3 @@
+Employee 1. Name :: Anna, Company :: LMT, JobTitle :: operator, Salary :: 4000
+Employee 2. Name :: John, Company :: LU, JobTitle :: researcher, Salary :: 2000
+Employee 3. Name :: Juris, Company :: VC4, JobTitle :: accountant, Salary :: 1500

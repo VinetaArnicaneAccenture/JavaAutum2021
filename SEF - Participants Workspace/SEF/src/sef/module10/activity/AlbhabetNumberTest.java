@@ -10,10 +10,13 @@ public class AlbhabetNumberTest {
 		Generator obj = new Generator();
 		
 		//1 - Create objects of both the thread classes and pass obj as a parameter to them 
-		
+		NumGenerator numGen= new NumGenerator();
+		AlphaGenerator alphaGen = new AlphaGenerator();
 		
 		//2 - Start both the threads
-		
+		numGen.run();
+		alphaGen.run();
+
 		}
 	}
 
@@ -27,7 +30,12 @@ class NumGenerator extends Thread
 	public void run()
 	{
 		//3 - Run a loop from 1-26 (say i is the variable) and
-		//call printNumber passing i as its parameter 
+		//call printNumber passing i as its parameter
+		//  ??printNumber
+
+		for (int i = 1; i <= 26; i++) {
+			System.out.println("Number "+i);
+		}
 	}
 }  
 
@@ -43,6 +51,11 @@ class AlphaGenerator extends Thread
 		
 		//4 - Run a loop from A-Z (say c is the variable) and
 		//call printAlbhabet passing c as its parameter
+		for (char i ="A"; i <= "Z"; i++) {
+			System.out.println("Letter "+i);
+		}
+
+
 	
 	}
 }

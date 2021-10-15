@@ -15,6 +15,8 @@ public class ProductTests extends TestCase {
         assertNull(product.getDescription());
         product.setDescription(testDescription);
         assertEquals(testDescription, product.getDescription());
+
+        // assertEquals("Some text", product.getDescription());   //test of assertion
     }
 
     public void testSetAndGetPrice() {

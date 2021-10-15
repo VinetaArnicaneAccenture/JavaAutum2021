@@ -119,6 +119,29 @@ public class MyCalculatorTest extends TestCase {
 			  catch (Error e) {
 				fail();
 			}
+
+			String action = "add";  //"crocodile";
+			int a=5;
+			int b=10;
+
+
+			switch  (action) {
+				case "add":
+					theCalculator.getSum(a, b);
+					break;
+				case "substraction":
+					theCalculator.getDifference(a, b);
+					break;
+				case "multiplication":
+					theCalculator.getProduct(a,b);
+					break;
+				case "division":
+					theCalculator.getQuotient(a,b);
+					break;
+				default:
+					fail("Such calculator option is not possible: "+ action);
+			}
+
 		}
 	}
 
